@@ -1,0 +1,13 @@
+@page
+@model BlogModel
+@{
+    ViewData["Title"] = "Blog";
+    var rambling = ViewData["blog"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">My Blog</h1>
+    <p></p>
+    <br>
+    <p>@rambling</p>
+</div>

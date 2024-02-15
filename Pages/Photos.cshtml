@@ -1,0 +1,10 @@
+﻿@page
+@model PhotosModel
+
+<h2>Photo Gallery</h2>
+<p>Here are some photos that I've taken, enjoy!</p>
+
+@foreach (var photoUrl in Model.PhotoUrls)
+{
+    <img src="@photoUrl" alt="Photo" width="600" height="600">
+}

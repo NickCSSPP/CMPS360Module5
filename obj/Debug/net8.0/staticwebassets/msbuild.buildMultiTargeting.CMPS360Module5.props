@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CMPS360Module5.props" />
+</Project>

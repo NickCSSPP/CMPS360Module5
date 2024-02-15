@@ -1,0 +1,13 @@
+@page
+@model AboutModel
+@{
+    ViewData["Title"] = "About";
+    var brand = ViewData["Brand"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">About</h1>
+    <p>This is my first website made in C#.</p>
+    <br>
+    <p>@brand</p>
+</div>

@@ -1,0 +1,13 @@
+@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+    var info = ViewData["info"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">Contact me</h1>
+    <p>Here is my contact information if you wish to message me.</p>
+    <br>
+    <p>@info</p>
+</div>
